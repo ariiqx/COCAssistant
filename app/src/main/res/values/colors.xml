@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#1c266e</color>
+    <color name="colorPrimaryDark">#131b53</color>
+    <color name="colorAccent">#E91E63</color>
+
+    <color name="colorPrimaryLight">#1e03a1</color>
+    <color name="colorPressed">#E91E63</color>
+    <color name="colorRipple">#e4185e</color>
+
+    <color name="colorSuccess">#109104</color>
+    <color name="colorWarning">#E91E63</color>
+    <color name="colorDanger">#e40508</color>
+    <color name="colorInfo">#037ac5</color>
+
+    <color name="colorLogo">#0d47a1</color>
+    <color name="colorChatIn">#bcfaba</color>
+    <color name="colorChatOut">#f3f9bf</color>
+    <color name="colorShade">#999999</color>
+    <color name="colorDark">#101010</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorFloor">#F1F7F7</color>
+    <color name="colorTitle">#4c4c4c</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLine">#EEEEEE</color>
+
+    <color name="colorDirectory">#892402</color>
+    <color name="colorBible">#000000</color>
+    <color name="colorReference">#8b020b</color>
+    <color name="colorLessons">#3b0483</color>
+    <color name="colorSermons">#054c81</color>
+    <color name="colorNotebook">#8b0374</color>
+    <color name="colorGuide">#b60407</color>
+    <color name="colorQuiz">#036007</color>
+
+</resources>

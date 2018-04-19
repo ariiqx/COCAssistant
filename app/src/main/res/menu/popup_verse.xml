@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_share"
+        android:orderInCategory="100"
+        android:title="@string/txt_share" />
+
+    <item
+        android:id="@+id/menu_bookmark"
+        android:orderInCategory="200"
+        android:title="@string/txt_bookmark"/>
+
+    <item
+        android:id="@+id/menu_highlight"
+        android:orderInCategory="300"
+        android:title="@string/txt_highlight"/>
+
+    <item
+        android:id="@+id/menu_notebook"
+        android:orderInCategory="400"
+        android:title="@string/txt_add_notebook"/>
+</menu>

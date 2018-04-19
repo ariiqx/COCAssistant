@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_asv"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_asv" />
+        <item
+            android:id="@+id/nav_bbe"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_bbe" />
+        <item
+            android:id="@+id/nav_deb"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_deb" />
+        <item
+            android:id="@+id/nav_kjv"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_kjv" />
+        <item
+            android:id="@+id/nav_wbt"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_wbt" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_web" />
+        <item
+            android:id="@+id/nav_ylt"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/txt_bible_ylt" />
+    </group>
+
+</menu>

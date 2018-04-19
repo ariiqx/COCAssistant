@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="100"
+        android:title="@string/txt_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/menu_law"
+        android:orderInCategory="200"
+        android:title="@string/txt_law"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_histor"
+        android:orderInCategory="300"
+        android:title="@string/txt_history"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_wisdom"
+        android:orderInCategory="400"
+        android:title="@string/txt_wisdom"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_prophets"
+        android:orderInCategory="500"
+        android:title="@string/txt_prophets"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_gospels"
+        android:orderInCategory="600"
+        android:title="@string/txt_gospels"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_acts"
+        android:orderInCategory="700"
+        android:title="@string/txt_acts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_epistles"
+        android:orderInCategory="800"
+        android:title="@string/txt_epistles"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_apocalyptic"
+        android:orderInCategory="900"
+        android:title="@string/txt_apocalyptic"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,43 @@
+==============================================================================
+ACTIVITIES ORGANISATION
+==============================================================================
+
+THEMES
+------------------------------------------------------------------------------
+1000: Hymnals       =>  img_hymnal          [ Hymnals -> Hymns -> Hymn ]
+2000: Directory     =>  img_directory       [ Regions -> Churches -> Church ]
+3000: Bible         =>  img_bible           [ Books -> Chapters -> Verses ]
+4000: References    =>  img_reference       [ Topics -> Guides -> Facts ]
+5000: Lessons       =>  img_lessons         [ Topics -> Lessons -> Lessons ]
+6000: Sermons       =>  img_sermon          [ Topics -> Sermons -> Sermon ]
+7000: Quiz          =>  img_quiz            [ Areas -> Levels -> Quizzes -> Quiz ]
+8000: Events        =>  img_events          [ Events -> Event ]
+
+NAVIGATION
+-----------------------------------------------------------------------------
+0000: Contact       [ Contacts -> Address ]
+0000: Calendar      [ Calendar -> Events ->[Events -> Event ] ]
+0000: Notebook      [ Notes -> Note ]
+
+
+============================================================================
+MODELS ORGANIZATION
+============================================================================
+
+Person
+               Calendar { onEvents }
+               Note
+               Contact     -> Address
+               Like { onThemes }
+
+Nation      -> Region
+                               Church
+Theme
+               Hymnal      -> Hymn
+               Genre       -> Book        -> Chapter          -> Verse
+               Sermon
+               Topic
+                              Guide       -> Fact
+                              Lesson
+Area        -> Level       -> Quiz
+Event
